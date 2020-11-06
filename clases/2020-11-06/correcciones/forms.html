@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <title>
+      Formularios
+    </title>
+  </head>
+  <body>
+    <h1>Formularios</h1>
+    <!--POST: enviar los datos en el cuerpo de la peticion -->
+    <!--GET: enviar los datos en la url -->
+    <form action="mailto:florindo.lopdel@educa.jcyl.es" method="post" enctype="multipart/form-data">
+      <input name="tipo_formulario" type="hidden" value="datos_personales"></br>
+
+      <fieldset>
+        <legend> Datos personales</legend>
+        <label for="nombre">Nombre</label>
+        <input id="nombre" readonly name="nombre" type="text" placeholder="Nombre"></br>
+
+
+        <label for="apellidos">Apellidos:</label>
+        <input id="apellidos" disabled name="apellidos" type="text" value="ldm" placeholder="Apellidos"></br>
+
+        Edad:
+        <input name="edad" type="number"> años</br>
+
+        Radio:
+        <input name="sexo" type="radio" value="M" checked> M
+        <input name="sexo" type="radio" value="F" > F </br>
+
+        Idiomas:
+        <input type="checkbox" name="idiomas" value="ingles"> Inglés
+        <input type="checkbox" name="idiomas" value="espanol" checked> Español
+        <input type="checkbox" name="idiomas" value="ingles"> Holandés
+        <input type="checkbox" name="idiomas" value="aleman"> Alemán
+        <input type="checkbox" name="idiomas" value="frances"> Francés</br>
+      </fieldset>
+      <fieldset>
+        <legend> Ciudades</legend>
+        <label for="ciudad">Select CYL</label>
+        <select id="ciudad" name="ciudad">
+          <option value="34004">Palencia</option>
+          <option value="34005">Valladolid</option>
+          <option value="34006">León</option>
+          <option value="34007">Burgos</option>
+          <option value="34008">Soria</option>
+          <option value="34009">Salamanca</option>
+          <option value="34001">Zamora</option>
+          <option value="34002">Ávila</option>
+          <option value="34003">Segovia</option>
+        </select></br>
+
+        Select A:
+        <select multiple name="ciudad_andalucia">
+          <option value="74004">Sevilla</option>
+          <option value="74005">Jaén</option>
+          <option value="74006">Córdoba</option>
+          <option value="74007">Almería</option>
+          <option value="74008">Cádiz</option>
+          <option value="74009">Granada</option>
+          <option value="74001">Málaga</option>
+          <option value="74002">Huelva</option>
+        </select></br>
+      </fieldset>
+
+
+      <fieldset>
+        <legend> Otros datos</legend>
+        Comentarios:
+        <textarea name="comentarios" cols="40" rows="6"></textarea></br>
+
+        Subir archivo:
+        <input type="file" name="archivo"></br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar formulario">
+      </fieldset>
+    </form>
+  </body>
+</html>
