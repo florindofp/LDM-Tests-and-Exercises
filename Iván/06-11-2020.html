@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Formularios</title>
+
+    </head>
+    <body>
+        <h1>Formularios</h1>
+        <!--POST: envar los datos en el cuerpo de la petición-->
+        <!--GET: enviar los datos en la url-->
+        <form action="mailto:ibascub2017@hotmail.com" method="POST">
+            <fieldset>
+                <legend>Datos personales</legend>
+
+                Nombre: <input name="Nombre" type="text">
+            Apellidos: <input name="apellidos" type="text">
+            Edad: <input name="edad"  type="number"> años
+            <br>
+            Radio: <input name="sexo" type="radio" value="M" checked> M
+            <input name="sexo" type="radio" value="F" checked> F
+            <br>
+
+            Idiomas: <input type="checkbox" name="idiomas"  value="ingles"> ingles
+            <input type="checkbox" name="idiomas"  value="Frances"> Frances
+            <input type="checkbox" name="idiomas"  value="Español"> Español
+            <input type="checkbox" name="idiomas"  value="Aleman"> Aleman
+            <input type="checkbox" name="idiomas"  value="Japones"> Japones
+            <br>
+
+            </fieldset>
+            <fieldset>
+                <legend>Ciudades</legend>
+                Select:
+                <select name="ciudad">
+                    <option>Palencia</option>
+                    <option>Valladolid</option>
+                    <option>Burgos</option>
+                    <option>Salamanca</option>
+                    <option>Soria</option>
+                    <option>Zamora</option>
+                    <option>Leon</option>
+                    <option>Avila</option>
+                    <option>Segovia</option>
+                </select>
+            <br>
+
+           Select: 
+            <select multiple name="Ciudad de Galicia">
+               <option>Santiago de Compostela</option>
+               <option>Pontevedra</option>
+               <option>Vigo</option>
+               <option>A Coruña</option>
+               <option>Lugo</option>
+               <option>Ferrol</option>
+            </select><br>
+
+            </fieldset>
+            
+           Comentarios:
+           <textarea name="Comentarios" cols="40" rows="15"></textarea><br>
+           
+           Subir archivo:
+           <input type="file" value="Subir Imagen"><br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetear">
+        </form>
+    </body>
+</html>
