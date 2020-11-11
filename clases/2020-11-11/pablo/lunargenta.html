@@ -1,0 +1,87 @@
+
+<html>
+    <head>
+        <title>Lunargenta resorts</title>
+        <style>
+            legend {
+                font-style: oblique;
+                font-size: 16pt;
+                color:rgb(68, 230, 4);
+            }
+            body {
+                background-image:url("https://i.pinimg.com/originals/a6/23/fd/a623fd58a86e03591bf52ad5d645787b.jpg")
+
+            }
+            label{
+                color:rgb(255, 255, 255);
+
+            }
+            h1 {
+                color: rgb(2, 6, 7);
+            }
+            h1 {
+                text-shadow: 2px 2px 5px red;
+            }
+            h1 {
+                text-align: center;
+            }
+            fieldset {
+                background-color: rgb(233, 39, 39);opacity: 0.80;
+            }
+            input {
+            margin: 5px;
+            }
+            img.discord {
+                opacity: 0.5;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Haga su reserva en la mejor posada de Lunargenta</h1><br><br>
+        <form action="mailto:reservas@mihotel.com" method="POST">
+            <fieldset>
+                <fieldset>
+                    <legend>Datos Personales</legend>
+
+                    <label>Nombre: </label><input type="text" name="Nombre">
+                    <label>Apellidos: </label><input type="text" name="Apellidos">
+                    <label>Telefono de contacto: </label><input type="text" name="telefono">
+                    <br>
+                    <br>
+                    <label>E-mail: </label><input type="text" name="e-mail">
+                    <label>Número de noches: </label><input type="number" name="noches" min="1" max="30">
+
+                </fieldset>
+                <fieldset>
+                    <legend>Fecha de llegada</legend>
+                    <label for="llegada">¿Que días nos acompañaras?</label>
+                    <input type="date" id="llegada" name="llegada">
+
+                </fieldset>
+                <fieldset>
+                    <legend>Estancia</legend>
+
+                    <label>Tipo de habitación: </label>
+                    <input type="radio" name="habitación" value="simple"> <label>Simple</label>
+                    <input type="radio" name="habitación" value="doble"> <label>Doble</label>
+                    <input type="radio" name="habitación" value="matrimonio"> <label>Matrimonio</label>
+                    <br>
+                    <br>
+                    <label>Otros servicios: </label>
+                    <input type="checkbox" name="Otros" value="desayuno"> <label>Desayuno</label>
+                    <input type="checkbox" name="Otros" value="comida"> <label>Comida</label>
+                    <input type="checkbox" name="Otros" value="cena"> <label>Cena</label>
+                    <input type="checkbox" name="Otros" value="cama suplementaria"> <label>Cama suplementaria</label>
+                </fieldset>
+
+                <label>Comentarios: </label><br>
+                <textarea name="Comentarios" cols="50" rows="5"></textarea><br>
+                <Input type="submit" name="Enviar">
+                <input type="reset" value="Borrar">
+            </fieldset>
+        </form><br><br><br>
+        <a href="https://discord.gg/AvndfAJwuu"><img class="discord" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrYS4Kd45jH4RM3uVb_TpE8ohC4Bg1UTN03Q&usqp=CAU" ></a>
+        <a href="https://www.twitch.tv/rekounter"><img class="discord" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS2ETV5WOeJjlp1NNiITvzXY7e3ZarUsh8S1w&usqp=CAU" ></a>
+    </body>
+</html>

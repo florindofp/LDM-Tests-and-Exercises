@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title>
+      Tablas
+    </title>
+    <style>
+      #header{
+        background-color: blueviolet;
+        color: white;
+      }
+      #header p{
+        background-color: red;
+        color: white;
+        text-align: left;
+      }
+      #footer{
+        background-color: greenyellow;
+        color: black;
+        font-size: 9px;
+        text-align: right;
+        padding: 5px;
+      }
+      #content{
+        background-color: aquamarine;
+        color: slategray;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <table>
+        <tr>
+          <th>Home</th>
+          <th>About us</th>
+          <th>Contact</th>
+          <th>Location</th>
+          <th>Login</th>
+        </tr>
+      </table>
+      <p>Mira nuestra tabla</p>
+    </div>
+    <div id="content">
+
+      <p>Se puede ver en la siguiente tabla:</p>
+      <table id="table" class="border-orange" cellpadding="5" border="1" cellspacing="12">
+        <tr>
+          <th>Lunes</th>
+          <th>Martes</th>
+          <th>Miércoles</th>
+          <th>Jueves</th>
+          <th>Viernes</th>
+        </tr>
+        <tr align="center" colspan="2">
+          <td>Manzana</td>
+          <td>Plátano</td>
+          <td align="right" colspan="2">kiwi</td>
+          <td>Fresa</td>
+        </tr>
+      </table>
+    </div>
+    <div id="footer">
+      Adiós clase de LDM 11/11/2020
+    </div>
+  </body>
+</html>
