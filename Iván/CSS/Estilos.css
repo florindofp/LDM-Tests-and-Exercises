@@ -13,10 +13,7 @@ p{
 .contener {
     font-size: 20px;
 }
-.lista{
-    background-color: lawngreen;
-    color: mediumblue;
-}
+
 ol.lista{
     background-color: black;
     color: white;
