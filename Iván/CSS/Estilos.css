@@ -1,0 +1,20 @@
+p{
+    color:deepskyblue;
+
+}  
+#parrafo{
+    font-size: 20px;
+}
+.etiqueta_capa{
+    background-color: firebrick;
+    color: floralwhite;
+            
+}
+.contener {
+    font-size: 20px;
+}
+
+ol.lista{
+    background-color: black;
+    color: white;
+}
