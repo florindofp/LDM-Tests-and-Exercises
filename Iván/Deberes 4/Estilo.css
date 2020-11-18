@@ -1,3 +1,25 @@
 body{
     background-color: rgb(0, 0, 0);
 }
+.blanco{
+    color: white;
+    text-align: center;
+}
+p{
+    text-align: left;
+    color: white;
+}
+.lista{
+    color: red;
+    text-align: left;
+}
+#tabla{
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    align-items: center;
+    
+}
+.titulo{
+    font-size: 22px;
+}
