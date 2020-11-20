@@ -1,0 +1,28 @@
+.parrafo{
+    font-size: 16px;
+    color: greenyellow;
+}
+#color{
+    background-color: black;
+}
+.cabecera{
+    font-size: 32px;
+    color:white
+}
+#imagen{
+    border-style: solid;
+    color: white;
+    border-width: 5px;
+}
+#Lista{
+    color: white;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+#celda{
+    border-style: solid;
+    border-color: aqua;
+    color: white;
+    text-align: center;
+}
