@@ -1,0 +1,17 @@
+
+h2{
+    background-color: grey;
+    color: rgb(94, 94, 94);
+    text-decoration: underline
+}
+div{
+    background-color: lightgrey;
+}
+em{
+    color: steelblue;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin: 0cm; 
+}
