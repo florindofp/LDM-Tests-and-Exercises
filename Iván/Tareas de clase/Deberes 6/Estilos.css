@@ -1,0 +1,36 @@
+body{
+    background-color: seagreen;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+#uno{
+    color: white;
+    font-size: 21px;
+    font-style: oblique;
+}
+
+#dos{
+    color: lightgoldenrodyellow;
+    font-family: sans-serif;
+    font-size: 21px;
+}
+
+#tres{
+    color: goldenrod;
+    font-size: 23px;
+    font-family: monospace;
+    font-weight: 400;
+    
+}
+
+#cuatro{
+    color: crimson;
+    font-family: cursive;
+    font-size: 21px;
+}
