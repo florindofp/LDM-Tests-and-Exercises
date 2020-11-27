@@ -8,19 +8,19 @@ h1{
     margin-top: 15px;
 }
 
-#uno{
+.uno{
     color: white;
     font-size: 21px;
     font-style: oblique;
 }
 
-#dos{
+.dos{
     color: lightgoldenrodyellow;
     font-family: sans-serif;
     font-size: 21px;
 }
 
-#tres{
+.tres{
     color: goldenrod;
     font-size: 23px;
     font-family: monospace;
@@ -28,7 +28,7 @@ h1{
     
 }
 
-#cuatro{
+.cuatro{
     color: crimson;
     font-family: cursive;
     font-size: 21px;
