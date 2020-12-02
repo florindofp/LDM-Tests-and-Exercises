@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "monoton-custom";
+    src: url("fonts/monoton.woff2");
+}
+@font-face {
+    font-family: "Mystery quest";
+    src: url("fonts/mystery-quest-v8-latin-regular.woff2");
+}
+
+body{
+    font-family: "Mystery quest";
+    background-color: black;
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url("img/matrix.png");
+}
+.content{
+    background-color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+   
