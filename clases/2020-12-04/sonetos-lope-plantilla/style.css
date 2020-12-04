@@ -1,0 +1,27 @@
+.bloque1{
+    background-color: blue;
+}
+.bloque2{
+    background-color: blue;
+    background-image: url("fondos/fuego.svg"), url("fondos/fuego.svg"), url("fondos/tallos.jpg");
+    background-position: left bottom, right bottom, left top;
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-size: 50px, 50px;
+}
+.bloque3{
+    background-color: green;
+}
+.bloque4{
+    background-color: yellow;
+}
+.bloque{
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+body {
+    background-image: url("fondos/corazon-1.svg"), url("fondos/corazon-2.svg");
+    background-position: left top, right top;
+    background-repeat: repeat-y, repeat-y;
+    background-size: 50px, 50px;
+}
