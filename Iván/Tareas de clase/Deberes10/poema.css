@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(255, 213, 220);
+    background-image: url(fondos/corazon-1.svg),url(fondos/corazon-2.svg);
+    background-position: left, right;
+    background-repeat: repeat-y, repeat-y;
+    background-size: 5%, 5%;
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 89%;
+}
+.alineación{
+    text-align: center;
+    padding-left: 31.5%;
+    padding-right: 31.5%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+
+}
+.soneto1{
+    border: solid black 2px;
+    background-image: url(fondos/manchas.png);
+    color: white;
+}
+.soneto2{
+    border: solid black 2px;
+    background-image:url(fondos/fuego.svg), url(fondos/fuego.svg) , url(fondos/tallos.jpg);
+    background-position: left bottom, right bottom, center;
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-size: 3%, 3%, 25%;
+    color: goldenrod;
+}
+.soneto3{
+    border: solid black 2px;
+    background-image: url(fondos/ojo.svg), url(fondos/hexagonos.jpg);
+    background-position: center, center;
+    background-repeat: no-repeat,repeat;
+    color: maroon;
+}
+.soneto4{
+    border: solid black 2px;
+    background-image: url(fondos/caballo.svg), url(fondos/estrellas.png);
+    background-repeat: repeat-x,repeat;
+    background-size: 4%, 10%;
+    background-position: bottom, center;
+    color: green;
+    padding-bottom: 2%;
+}

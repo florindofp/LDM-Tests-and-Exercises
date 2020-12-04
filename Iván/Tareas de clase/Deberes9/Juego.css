@@ -3,18 +3,23 @@ body{
     background: url(../Deberes9/img/matrix.png) left top repeat-y,
     url(../Deberes9/img/matrix2.jpg) right top repeat-y, black;
 }
-
 p{
     color: white;
 }
-#imagenes{
-    font-size: 36px;
-    color: #04AF04;;
+.izq{
+ float: left;
+ margin: 1%;
+ border: white solid 3px;
+ outline: solid #05C705 3px;
+ height: 25%;
+ width: 25%;
 }
-h2{
-    color: white;
+.right{
+    float: right;
+    margin: 1%;
+    border: white solid 3px;
+    outline: solid #05C705 3px;  
 }
-
 @font-face{
     font-family: "monoton";
     src: url(fonts/monoton.woff2);
@@ -22,33 +27,60 @@ h2{
 h1{
     font-family: "monoton";
     color: #04AF04;
-    font-size: 300%;
+    font-size: 200%;
     font-weight: 100;
+    border-bottom: 1px #04AF04 solid;
+    margin-left: 15%;
+    margin-right: 15%;
+    letter-spacing: 15px;
     text-align: center;
-    border-bottom: 1px #04AF04 solid; 
 }
 .titulo{
     border: 1px white solid;
     background-color:#05C705;
     margin-left: 10%;
-    margin-right: 7.5%;
+    margin-right: 10%;
+
+    
 }
 .contenido{
     border: 2px white solid;
     background-color: black;
     text-align: justify;
-}   
 
-.total{
-
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-
-}
+} 
 .final{
     border-top: 2px #05C705 solid;
     border-bottom: 2px #05C705 solid;
     margin-left: 10%;
     margin-right: 7.5%;
+    
 }
+#imagenes{
+    text-align: center;
+    color: #04AF04;
+    font-size: xx-large;
+    letter-spacing: 10px;
+}    
+.general{
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.mini{
 
+    font-family: 'Courier New', Courier, monospace;
+    margin: 5px;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+.amarillo{
+    color: yellow;
+}
+.rojo{
+    color: red;
+}
+.verde{
+    color: green;
+}
