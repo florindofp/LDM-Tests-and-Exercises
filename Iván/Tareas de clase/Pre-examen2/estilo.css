@@ -1,0 +1,104 @@
+@font-face{
+    font-family: "VT323";
+    src: url(../Pre-examen2/VT323.woff);
+}
+body{
+    
+    background: url(../Pre-examen2/logos-empresas.svg) repeat-x, #aca23c;
+    background-size: 10%;
+}
+h1{
+    font-family: "VT323";
+    font-size: 500%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #554d00;
+    text-shadow: white 2px 2px 2px;
+}
+#inicio{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 135%;
+}
+.deco{
+    color: #d7d7d7;
+
+}
+em{
+    color: #554d00;
+    font-style: italic;
+}
+#cubo{
+    text-align: center;
+}
+#linea{
+    border: 3px #554d00 solid;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.enlace{
+    margin: 5%;
+    border: white 1px solid;
+    color: white;
+    padding: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 130%;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    font-weight: 600;
+    padding: 1px;
+}
+
+.principal{
+    background-color: #554d00;
+    color: white;
+    padding: 3px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+.interior{
+    background-color: white;
+    color: black;
+    padding: 1%;
+    text-align: justify;
+    font-size: 135%;
+}
+strong{
+    font-family: monospace;
+    font-size: 125%;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.final{
+    border-top: #554d00 solid 5px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 125%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+}
+
+.izq{
+    float: left;
+    border: #aca23c 10px solid;
+    outline: #554d00 5px solid;
+    height: 45%;
+    width: 45%;
+    margin: 1%;
+}
+.dch{
+    float: right;
+    border: #aca23c 10px solid;
+    outline: #554d00 5px solid;
+    height: 45%;
+    width: 45%;
+    margin: 1%;
+}
