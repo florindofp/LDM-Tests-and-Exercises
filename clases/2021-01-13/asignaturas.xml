@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<fp>
+    <nombre>ASIR</nombre>
+    <descripcion>Administración de sistemas informáticos en Redes</descripcion>
+    <curso>1º</curso>
+    <asignaturas>
+        <asignatura>
+            <nombre>Implantación de sistemas operativos</nombre>
+            <horas>8</horas>
+            <profesor>Marisol</profesor>
+            <tipo>obligatoria</tipo>
+        </asignatura>
+        <asignatura>
+            <nombre>Gestión de BD</nombre>
+            <horas>6</horas>
+            <profesor>Javier</profesor>
+            <tipo>obligatoria</tipo>
+        </asignatura>
+        <asignatura>
+            <nombre>Información y orientación Laboral</nombre>
+            <horas>3</horas>
+            <profesor>Roberto</profesor>
+            <tipo>obligatoria</tipo>
+        </asignatura>
+        <asignatura>
+            <nombre>PAR</nombre>
+            <horas>6</horas>
+            <profesor>Florindo</profesor>
+            <tipo>optativa</tipo>
+        </asignatura>
+        <asignatura>
+            <nombre>LDM</nombre>
+            <horas>4</horas>
+            <profesor>Florindo</profesor>
+            <tipo>optativa</tipo>
+        </asignatura>
+        <asignatura>
+            <nombre>Fundamentos del Hardware </nombre>
+            <horas>3</horas>
+            <profesor tutor="1">Rubén</profesor>
+            <tipo>optativa</tipo>
+        </asignatura>
+    </asignaturas>
+</fp>

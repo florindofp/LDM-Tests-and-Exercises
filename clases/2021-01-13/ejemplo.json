@@ -1,0 +1,23 @@
+{"stock": 
+    [{
+        "nombre": "moto",
+        "antiguedad": {
+            "#text":"30",
+            "@unidad": "meses"
+        },
+        "precio": {
+            "#text":"3000",
+            "@unidad": "euros"
+        }
+    },{
+        "nombre": "coche",
+        "antiguedad": {
+            "#text":"30",
+            "@unidad": "meses"
+        },
+        "precio": {
+            "#text":"3000",
+            "@unidad": "euros"
+        }
+    }]
+}

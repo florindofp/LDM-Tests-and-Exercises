@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<stock>
+    <articulo>
+        <nombre>Moto</nombre>
+        <antiguedad unidad="meses">30</antiguedad>
+        <precio unidad="euros">3000</precio>
+    </articulo>
+    <articulo>
+        <nombre>Coche</nombre>
+        <antiguedad unidad="meses">30</antiguedad>
+        <precio unidad="euros">3000</precio>
+    </articulo>
+</stock>
