@@ -1,0 +1,49 @@
+{
+    "ciudad":{
+        "nombre":"Palencia",
+        "Bares":{
+            "la mejillonera":{
+                "economico":"3",
+                "nombre":"la mejillonera",
+                "acceso movilidad reducida":"si",
+                "direccion":"Calle los Soldados 7 palencia",
+                "Tipo":"tapas",
+                "recomendable":"4",
+                "link":"https://www.google.es/maps/place/La+Mejillonera/@42.0127421,-4.5352676,17z/data=!3m1!4b1!4m5!3m4!1s0xd47b0466be4bec9:0x169da8b7412a7654!8m2!3d42.0127381!4d-4.5330736"
+            },
+            "tiffanis":{
+                "economico":"4",
+                "nombre":"tiffanis",
+                "acceso movilidad reducida":"si",
+                "direccion":"Calle Casañe 14 Palencia",
+                "tipo":"pub",
+                "recomendable":"4",
+                "link":"https://www.google.es/maps/place/Tiffanis/@42.0025122,-4.5267893,19z/data=!4m5!3m4!1s0xd47b031641cdc63:0x6953f91fa3f48d17!8m2!3d42.0024963!4d-4.5268634"
+            },
+            "Coffeepal":{
+                "economico":"3",
+                "nombre":"mokalia",
+                "acceso movilidad reducida":"si",
+                "dirección":"Calle Ignacio Martinez de Azcoitia 5 Palencia",
+                "tipo":"bar-cafeteria",
+                "link":"https://www.google.es/maps/place/Coffeepal+S+L/@42.0115607,-4.5332576,19.54z/data=!4m5!3m4!1s0xd47b0464bb0b16f:0xeb988ad78bd4f91b!8m2!3d42.0115054!4d-4.5329929"
+            },
+            "Cervecería Flandes":{
+                "economico":"4",
+                "nombre":"Flandes",
+                "acceso movilidad reducida":"parcial",
+                "dirección":"Calle Ignacio Martínez de Azcoitia 11D Palencia",
+                "tipo":"pub Irlandes",
+                "Link":"https://www.google.es/maps/place/Cervecería+Flandes/@42.0115607,-4.5332576,19.54z/data=!4m5!3m4!1s0xd47b04645e0747d:0x90628e605bb97f9e!8m2!3d42.01189!4d-4.5324216"
+            },
+            "Cines Ortega":{
+                "economico":"4",
+                "nombre":"Cines Teatro Ortega",
+                "acceso movilidad reducida":"si",
+                "direccion":"Calle Colon 2 Palencia",
+                "tipo":"cine y teatro",
+                "link":"https://www.google.es/maps/place/Cines+Teatro+Ortega/@42.0091885,-4.531329,19z/data=!4m5!3m4!1s0xd47b04807c1ffd7:0x274b8c5df000b430!8m2!3d42.0091123!4d-4.5314476"
+            }
+        }
+    }
+}
