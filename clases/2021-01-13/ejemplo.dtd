@@ -1,0 +1,5 @@
+<!ELEMENT stock(articulo*)>
+<!ELEMENT articulo(nombre,antiguedad,precio)>
+<!ELEMENT nombre(#PCDATA)>
+<!ELEMENT antiguedad(#PCDATA)>
+<!ELEMENT precio(#PCDATA)>
