@@ -4,12 +4,9 @@
    <!ELEMENT name (#PCDATA)>
    <!ELEMENT company (#PCDATA)>
    <!ELEMENT phone (#PCDATA)>
-   <!ENTITY name "Florindo">
-   <!ENTITY myURL SYSTEM "https://www.as.com">
-   <!ENTITY textFile SYSTEM "file.txt">
 ]>
 <address>
    <name>Tanmay Patil</name>
    <company>TutorialsPoint</company>
-   <phone>(011) 123-4567 &name; &myURL; &textFile;</phone>
+   <phone>(011) 123-4567 </phone>
 </address>
