@@ -2,3 +2,4 @@
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT company (#PCDATA)>
 <!ELEMENT phone (#PCDATA)>
+<!ATTLIST name tipo CDATA #REQUIRED>
