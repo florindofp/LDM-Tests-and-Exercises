@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BDsms
+    xmlns="https://www.w3schools.com"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://www.w3schools.com/xml sms.xsd">
+  <sms>
+    <telefono>65265271</telefono>
+    <fecha>01/07/2020</fecha>
+    <hora>20:21</hora>
+    <mensaje>Hello, How are you going?</mensaje>
+  </sms>
+  <sms>
+    <telefono>65265281</telefono>
+    <fecha>11/07/2020</fecha>
+    <hora>19:21</hora>
+    <mensaje>Hello, I am working at home</mensaje>
+  </sms>
+  <sms>
+    <telefono>65235271</telefono>
+    <fecha>12/07/2020</fecha>
+    <hora>19:21</hora>
+    <mensaje>See you later</mensaje>
+  </sms>
+  <sms>
+    <telefono>62265271</telefono>
+    <fecha>19/07/2020</fecha>
+    <hora>10:21</hora>
+    <mensaje>Pace off</mensaje>
+  </sms>
+</BDsms>
