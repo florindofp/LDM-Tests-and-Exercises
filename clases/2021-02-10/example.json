@@ -1,0 +1,59 @@
+{
+  "modulo": [
+        {
+          "nombre": "Lenguajes de Marcas y Sistemas de Gestión de Información",
+          "caracter": "obligatorio",
+          "horas": "4",
+          "fecha_inicio": {
+              "dia": "15",
+              "mes": "septiembre",
+              "año": "2021"
+          },
+          "fecha_fin": {
+              "dia": "30",
+              "mes": "junio",
+              "año": "2022"
+          },
+          "alumno": [
+              {
+                "nota": "",
+                "faltas": "",
+                "identificacion": {
+                "nombre": "Ana",
+                "apellidos": "Fernandez Gutiérrez",
+                "nif": "16965696L"
+                },
+                "datos": {
+                        "tlfno": "789654321",
+                        "email": "ana.fdezgtrrez@hotmail.com",
+                        "domicilio": {
+                              "calle": "calle",
+                              "direccion": "El Percebe, 13 ",
+                              "localidad": "Santander",
+                              "CP": "39302"
+                       }
+                }
+            },
+            {
+            "nota": "apto",
+            "faltas": "0",
+            "identificacion": {
+                "nombre": "Pepito",
+                "apellidos": "Grillo",
+                "nif": "98765432H"
+            },
+            "datos": {
+                "tlfno": "656566555",
+                "email": "yhyh@yahoo.com",
+                "domicilio": {
+                    "calle": "avenida",
+                    "direccion": "El Pez, 5",
+                    "localidad": "Suances",
+                    "CP": "39401"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
