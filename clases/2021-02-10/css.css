@@ -4,10 +4,11 @@ tutorials {
   font-family: verdana, helvetica, sans-serif;
   text-align: center;
 }
-tutorials {
+tutorial {
+  border: #000000 solid 2px;
+  display: block;
 }
 name {
-  border: #000000 solid 2px;
   display: block;
   font-weight: bold;
 }
