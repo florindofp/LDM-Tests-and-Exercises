@@ -10,13 +10,9 @@
 
   <body>
     <div id="app">
-        <h1>CIUDAD</h1>
+        <h1>PERRO</h1>
         <p>
-            <ul>
-                <li>Ciudad: {{jsonObject.Ciudad}}</li>
-                <li><b>Comunidad; {{jsonObject.Comunidad}}</b></li>
-                <li>Habitantes: {{jsonObject.Habitantes}}</li>
-            </ul>
+            <img :src="jsonObject.message" />
         </p>
         <div >
           <ul v-for="bar in jsonObject.Bares">
@@ -29,6 +25,7 @@
     </div>
 
     <script>
+
       const App = new Vue({
         el: '#app',
         data: {
@@ -37,7 +34,7 @@
         },
         methods: {
             init() {
-              fetch("http://localhost/IAW/carlos.json")
+              fetch("https://dog.ceo/api/breed/waterdog/spanish/images/random")
               .then(response => response.json())
               .then(data => (this.jsonObject = data));
             }

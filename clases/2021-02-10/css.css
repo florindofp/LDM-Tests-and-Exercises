@@ -2,15 +2,19 @@ tutorials {
   margin: 10px;
   background-color: #ccff00;
   font-family: verdana, helvetica, sans-serif;
+  text-align: center;
+}
+tutorials {
 }
 name {
+  border: #000000 solid 2px;
   display: block;
   font-weight: bold;
 }
 
 url {
   display: block;
-  color: #636363;
+  color: #e40f0f;
   font-size: small;
   font-style: italic;
 }
