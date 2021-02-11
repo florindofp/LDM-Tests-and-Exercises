@@ -1,0 +1,52 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <title>Vue App</title>
+  </head>
+
+  <body>
+    <div id="app">
+        <h1>USUARIOS</h1>
+        <p>
+          El resultado del JSON es este:
+        </p>
+        <p>
+          <img :src="jsonObject.results[0].picture.medium" >
+        </p>
+        <p>
+          Nombre completo: {{jsonObject.results[0].name.title}}, {{jsonObject.results[0].name.first}} {{jsonObject.results[0].name.last}}
+        </p>
+        <p v-if="jsonObject.status == 'success'">
+          Status: <span style="color:chartreuse">{{jsonObject.status}}</span>
+        </p>
+        <p v-if="jsonObject.status == 'error'">
+          Status: <span style="color:red">{{jsonObject.status}}</span>
+        </p>
+    </div>
+  </body>
+
+  <script>
+
+    const App = new Vue({
+      el: '#app',
+      data: {
+        fetchurl: 'https://randomuser.me/api/',
+        jsonObject: {}
+      },
+      methods: {
+          init() {
+            fetch(this.fetchurl)
+            .then(response => response.json())
+            .then(data => (this.jsonObject = data));
+          }
+      },
+      mounted(){
+          this.init()
+      }
+    })
+  </script>
+</html>
