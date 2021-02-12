@@ -14,11 +14,11 @@
     <div id="app" class="container">
         <h1>Pokemon</h1>
         <div class="row">
-          <div class="card col-sm-4" style="width: 18rem;" v-for="pokemon in jsonPokemon.results">
+          <div class="card col-sm-4" style="width: 18rem;" v-for="(pokemon, key) in jsonPokemon.results">
             <div class="card-body">
               <h5 class="card-title">{{pokemon.name}}</h5>
-              <a href="#" class="btn btn-primary">Mostrar detalles</a>
-              <div v-if="false" class="alert alert-primary" role="alert">
+              <a href="#" @click="mostrarDetalles(key, pokemon.url)" class="btn btn-primary">Mostrar detalles</a>
+              <div v-if="mostrar == key" class="alert alert-primary" role="alert">
                 A simple primary alert—check it out!
               </div>
             </div>
@@ -31,13 +31,21 @@
       const App = new Vue({
         el: '#app',
         data: {
-          jsonPokemon: {}
+          jsonPokemon: {},
+          detalles: {},
+          mostrar: -1
         },
         methods: {
             init() {
               fetch("https://pokeapi.co/api/v2/pokemon/")
               .then(response => response.json())
               .then(data => (this.jsonPokemon = data));
+            },mostrarDetalles(key, url) {
+              this.mostrar = key;
+
+              fetch(url)
+              .then(response => response.json())
+              .then(data => (this.detalles = data));
             }
         },
         mounted(){

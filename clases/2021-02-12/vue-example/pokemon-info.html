@@ -14,7 +14,24 @@
     <div id="app" class="container">
       <h1>Pokemon</h1>
         <div class="alert alert-info" role="alert">
-        <h4 class="alert-heading">{{jsonObject.name}}</h4>
+        <h4 class="alert-heading">Name: {{jsonObject.name}}</h4>
+        <ul>
+          <li>order: {{jsonObject.order}}</li>
+          <li>Alto: {{jsonObject.height}}</li>
+          <li>Ancho: {{jsonObject.weight}}</li>
+          <li>Base Exp: {{jsonObject.base_experience}}</li>
+        </ul>
+
+        <h4 class="alert-heading">Tipo</h4>
+        <ul>
+          <li v-for="tipo in jsonObject.types">tipo: {{tipo.type.name}}</li>
+        </ul>
+        <p></p>
+
+        <h4 class="alert-heading">Game indices</h4>
+        <ol>
+          <li v-for="game in jsonObject.game_indices">Version: {{game.version.name}}</li>
+        </ol>
         <p></p>
       </div>
     </div>
