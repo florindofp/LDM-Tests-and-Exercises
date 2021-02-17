@@ -37,7 +37,7 @@
         },
         methods: {
             init() {
-              fetch("https://pokeapi.co/api/v2/pokemon/")
+              fetch("https://pokeapi.co/api/v2/pokemon/?offset=200")
               .then(response => response.json())
               .then(data => (this.jsonPokemon = data));
             },mostrarDetalles(key, url) {
