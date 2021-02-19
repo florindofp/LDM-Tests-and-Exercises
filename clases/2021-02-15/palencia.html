@@ -27,7 +27,9 @@
         
         <h5>Nombre del Ocio 2:{{jsonObject.Ocio[0].Nombre}}</h5>
         <h2> Bares recomendados</h2>
-        <table class="table-info">
+        <button @click="mostrarTablaBares = true" v-if="!mostrarTablaBares" class="btn btn-primary">Mostrar más</button>
+        <button @click="mostrarTablaBares = false" v-if="mostrarTablaBares" class="btn btn-primary">Mostrar menos</button>
+        <table class="table-info" v-if="mostrarTablaBares == true">
             <thead>
               <tr>
                 <th scope="col">Nombre</th>
@@ -44,8 +46,10 @@
               </tr>
             </tbody>
         </table>
-        <h2> Oferta de ocio</h2>
-        <table class="table-info">
+        <h2> {{tituloTablaOcio}}</h2>
+        <button @click="showTablaOcio" v-if="!mostrarTablaOcio" class="btn btn-primary">Mostrar más</button>
+        <button @click="ocultarTablaOcio" v-if="mostrarTablaOcio" class="btn btn-primary">Mostrar menos</button>
+        <table class="table-info" v-if="mostrarTablaOcio">
             <thead>
                 <tr>
                     <th scope="col">Nombre</th>
@@ -62,7 +66,6 @@
             </tbody>
         </table>
     </div>
-    <di
   </body>
   
 
@@ -71,13 +74,24 @@
     const App = new Vue({
       el: '#app',
       data: {
-        jsonObject: {}
+        jsonObject: {},
+        mostrarTablaBares: true,
+        mostrarTablaOcio: false,
+        tituloTablaOcio: "Oferta de ocio"
       },
       methods: {
           init() {
             fetch("https://raw.githubusercontent.com/Arrako23/LDM/master/PR%C3%81CTICAS/P-2-LDM-2/ocio.json")
             .then(response => response.json())
             .then(data => (this.jsonObject = data));
+          },
+          showTablaOcio(){
+            this.mostrarTablaOcio = true;
+            this.tituloTablaOcio = "Oferta de ocio (detalles)";
+          },
+          ocultarTablaOcio(){
+            this.mostrarTablaOcio = false;
+            this.tituloTablaOcio = "Oferta de ocio";
           }
       },
       mounted(){
