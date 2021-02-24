@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <!-- INFORMACIÓN DEL CANAL-->
+        <title>Las 5 noticias del día de EL País</title>
+        <description>Recopilación de las cinco noticias destacadas del periódico de El País</description>
+        <link>https://elpais.com/</link>
+
+        <!-- INFORMACIÓN DE LOS ITEMS-->
+        <item>
+            <title>Últimas noticias del coronavirus</title>
+            <description>El Gobierno comunica 9.212 contagios y 389 muertos | La incidencia se sitúa en 218 casos por 100.000 habitantes en los últimos 14 días | Todas los territorios salen del riesgo extremo salvo Madrid, el País Vasco, Ceuta y Melilla | España y otros cuatro países urgen a la UE a tomar medidas para que aumente la producción de vacunas</description>
+            <link>https://elpais.com/sociedad/2021-02-24/ultimas-noticias-del-coronavirus-en-directo-casos-restricciones-y-vacunas-en-espana-y-en-el-mundo.html</link>
+        </item>
+        <item>
+            <title>Sánchez anuncia 11.000 millone</title>
+            <description>Los fondos estarán destinados a “empresas, pymes y trabajadores autónomos” para reforzar su solvencia, según el presidente</description>
+            <link>https://elpais.com/economia/2021-02-24/sanchez-anuncia-ayudas-por-11000-millones-de-euros-para-hosteleria-y-turismo.html</link>
+        </item>
+        <item>
+            <title>Bárcenas afirma que entregó un sobre con 60.000 euros a Esperanza Aguirre para su campaña electoral</title>
+            <description>El extesorero popular asegura tener una caja llena de documentos inéditos sobre la contabilidad paralela del PP que guarda “un amigo”</description>
+            <link>https://elpais.com/espana/2021-02-24/barcenas-afirma-que-entrego-un-sobre-con-60000-euros-a-esperanza-aguirre-para-la-campana-de-2007.html</link>
+        </item>
+    </channel>
+</rss>
