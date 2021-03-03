@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cartelera>
+    <peliculas>
+        <pelicula>
+            <id>1</id>
+            <titulo>hola</titulo>
+        </pelicula>
+        <pelicula>
+            <id>2</id>
+            <titulo>adios</titulo>
+        </pelicula>
+    </peliculas>
+    <cines>
+        <cine>
+            <id>1</id>
+            <nombre>avenida</nombre>
+        </cine>
+        <cine>
+            <id>2</id>
+            <nombre>ortega</nombre>
+        </cine>
+    </cines>
+</cartelera>
