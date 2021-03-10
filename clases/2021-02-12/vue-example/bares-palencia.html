@@ -12,32 +12,30 @@
 
   <body>
     <div id="app" class="container">
-      <h1>Pokemon</h1>
         <div class="alert alert-info" role="alert">
-        <h4 class="alert-heading">Name: {{jsonObject.name}}</h4>
+        <h1 class="alert-heading">Ciudad: {{jsonObject.Ciudad}}</h1>
         <!--  CAMPOS SIMPLES -->
         <ul>
-          <li>order: {{jsonObject.order}}</li>
-          <li>Alto: {{jsonObject.height}}</li>
-          <li>Ancho: {{jsonObject.weight}}</li>
-          <li>Base Exp: {{jsonObject.base_experience}}</li>
-          <li>Is default: {{jsonObject.is_default}}</li>
-          <li>Sprite: {{jsonObject.sprites.back_default}}</li>
-          <li><img :src="jsonObject.sprites.back_default"></li>
+          <li>Ciudad: {{jsonObject.Ciudad}}</li>
+          <li>Comunidad: {{jsonObject.Comunidad}}</li>
         </ul>
-        <!--  CAMPOS COMPUESTOS -->
-        <h4 class="alert-heading">Tipo</h4>
-        <table border="1">
-          <tr v-for="tipo in jsonObject.types">
-            <td>tipo: {{tipo.type.name}}</td>
-          </tr>
-        </table>
-
-        <h4 class="alert-heading">Game indices</h4>
-        <ol>
-          <li v-for="game in jsonObject.game_indices">Version: {{game.version.name}}</li>
-        </ol>
-        <p></p>
+        <h1>BARES</h1>
+        <div v-for="bar in jsonObject.Bares">
+            <ul>
+              <li>Nombre: {{bar.Nombre}}</li>
+              <li>Direccion:  {{bar.Dirección}}</li>
+              <li>Coste:  {{bar.Coste}}</li>
+              <li>Tipo:  {{bar.Tipo}}</li>
+            </ul>
+        </div>
+        <h1>OCIO</h1>
+        <div v-for="ocio in jsonObject.Ocio">
+            <ul>
+              <li>Nombre: {{ocio.Nombre}}</li>
+              <li>Direccion:  {{ocio.Dirección}}</li>
+              <li>Tipo:  {{ocio.Tipo}}</li>
+            </ul>
+        </div>
       </div>
     </div>
 
@@ -50,7 +48,7 @@
         },
         methods: {
             init() {
-              fetch("https://pokeapi.co/api/v2/pokemon/1/")
+              fetch("https://raw.githubusercontent.com/Arrako23/LDM/master/PR%C3%81CTICAS/P-2-LDM-2/ocio.json")
               .then(response => response.json())
               .then(data => (this.jsonObject = data));
             }
