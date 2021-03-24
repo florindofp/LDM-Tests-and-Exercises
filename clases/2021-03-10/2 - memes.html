@@ -11,6 +11,19 @@
 
   <body>
     <div id="app" class="container">
+      <p>
+        {{provincias}}
+      </p>
+      Cuantas provincias tiene CYL: <input type="text" v-model="provincias" />
+      <a href="#" class="btn" v-on:click="cambiarMensaje">Hacer click</a>
+      <div v-for="modulo in jsonObject.modulo" class="card">
+        <div class="card-header" v-if="provincias == 9" style="color:rgb(33, 0, 179)">
+          {{modulo.nombre}}
+        </div>
+        <div class="card-header" v-else style="color:rgb(241, 138, 41)">
+          {{modulo.nombre}}
+        </div>
+      </div>
     </div>
 
     <script>
@@ -18,17 +31,25 @@
       const App = new Vue({
         el: '#app',
         data: {
-          jsonObject: {}
+          jsonObject: {},
+          provincias: 0
         },
+
+
         methods: {
-            init() {
-              fetch("https://pokeapi.co/api/v2/pokemon/1/")
+            getApi() {
+              fetch("https://raw.githubusercontent.com/florindoasir/LDM/master/clases/2021-02-10/example.json")
               .then(response => response.json())
               .then(data => (this.jsonObject = data));
+            },
+            cambiarMensaje(){
+              this.mensaje = "Esto son funciones de vue";
             }
         },
+
+
         mounted(){
-            this.init()
+            this.getApi()
         }
       })
     </script>
