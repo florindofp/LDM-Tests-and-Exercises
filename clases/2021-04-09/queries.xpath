@@ -1,0 +1,6 @@
+/bookstore/book[year < 2005]/price
+
+for $book in /bookstore/book where $book/year < 2005 return $book/price
+
+insertar
+
