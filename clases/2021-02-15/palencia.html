@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Pokemon List</title>
+  </head>
+
+  <body>
+    <div id="app" class="container">
+        <h1>Información sobre la ciudad de la semana</h1>
+        <h2> Ciudad: {{jsonObject.Ciudad}} ({{jsonObject.Comunidad}})</h2>
+
+        <!-- MAYOR QUE 100000-->
+        <p v-if="jsonObject.Habitantes > 10"><small>Habitantes: {{jsonObject.Habitantes}}</small></p>
+        <!-- MENOR QUE 100000-->
+        <p v-if="jsonObject.Habitantes < 10"><small style="color:rgb(147, 243, 22)">Habitantes: {{jsonObject.Habitantes}}</small></p>
+
+
+
+        <p><small>Latitud: {{jsonObject.ubicacion.latitud}}</small></p>
+        <p><small>Longitud: {{jsonObject.ubicacion.longitud}}</small></p>
+        
+        <h5>Nombre del Ocio 2:{{jsonObject.Ocio[0].Nombre}}</h5>
+        <h2> Bares recomendados</h2>
+        <button @click="mostrarTablaBares = true" v-if="!mostrarTablaBares" class="btn btn-primary">Mostrar más</button>
+        <button @click="mostrarTablaBares = false" v-if="mostrarTablaBares" class="btn btn-primary">Mostrar menos</button>
+        <table class="table-info" v-if="mostrarTablaBares == true">
+            <thead>
+              <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Dirección</th>
+                <th scope="col">Coste</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="pub in jsonObject.Bares">
+                <td>{{pub.Nombre}}</td>
+                <td>{{pub.Dirección}}</td>
+                <td v-if="pub.Coste == 'Económico'"><b>{{pub.Coste}}</b></td>
+                <td v-else>{{pub.Coste}}</td>
+              </tr>
+            </tbody>
+        </table>
+        <h2> {{tituloTablaOcio}}</h2>
+        <button @click="showTablaOcio" v-if="!mostrarTablaOcio" class="btn btn-primary">Mostrar más</button>
+        <button @click="ocultarTablaOcio" v-if="mostrarTablaOcio" class="btn btn-primary">Mostrar menos</button>
+        <table class="table-info" v-if="mostrarTablaOcio">
+            <thead>
+                <tr>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Dirección</th>
+                    <th scope="col">Tipo</th>
+                  </tr>
+            </thead>
+            <tbody>
+              <tr v-for="ocio in jsonObject.Ocio">
+                <td>{{ocio.Nombre}}</td>
+                <td>{{ocio.Dirección}}</td>
+                <td>{{ocio.Tipo}}</td>
+              </tr>
+            </tbody>
+        </table>
+    </div>
+  </body>
+  
+
+  <script>
+
+    const App = new Vue({
+      el: '#app',
+      data: {
+        jsonObject: {},
+        mostrarTablaBares: true,
+        mostrarTablaOcio: false,
+        tituloTablaOcio: "Oferta de ocio"
+      },
+      methods: {
+          init() {
+            fetch("https://raw.githubusercontent.com/Arrako23/LDM/master/PR%C3%81CTICAS/P-2-LDM-2/ocio.json")
+            .then(response => response.json())
+            .then(data => (this.jsonObject = data));
+          },
+          showTablaOcio(){
+            this.mostrarTablaOcio = true;
+            this.tituloTablaOcio = "Oferta de ocio (detalles)";
+          },
+          ocultarTablaOcio(){
+            this.mostrarTablaOcio = false;
+            this.tituloTablaOcio = "Oferta de ocio";
+          }
+      },
+      mounted(){
+          this.init()
+      }
+    })
+  </script>
+</html>

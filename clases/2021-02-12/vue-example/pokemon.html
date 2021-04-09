@@ -19,7 +19,7 @@
               <h5 class="card-title">{{pokemon.name}}</h5>
               <a href="#" @click="mostrarDetalles(key, pokemon.url)" class="btn btn-primary">Mostrar detalles</a>
               <div v-if="mostrar == key" class="alert alert-primary" role="alert">
-                A simple primary alert—check it out!
+                <img v-if="detalles.sprites" :src="detalles.sprites.front_default" />
               </div>
             </div>
           </div>
@@ -37,7 +37,7 @@
         },
         methods: {
             init() {
-              fetch("https://pokeapi.co/api/v2/pokemon/")
+              fetch("https://pokeapi.co/api/v2/pokemon/?offset=200")
               .then(response => response.json())
               .then(data => (this.jsonPokemon = data));
             },mostrarDetalles(key, url) {

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>VUEJS</title>
+  </head>
+
+  <body>
+    <div id="app" class="container">
+      <p>
+        {{provincias}}
+      </p>
+      Cuantas provincias tiene CYL: <input type="text" v-model="provincias" />
+      <a href="#" class="btn" v-on:click="cambiarMensaje">Hacer click</a>
+      <div v-for="modulo in jsonObject.modulo" class="card">
+        <div class="card-header" v-if="provincias == 9" style="color:rgb(33, 0, 179)">
+          {{modulo.nombre}}
+        </div>
+        <div class="card-header" v-else style="color:rgb(241, 138, 41)">
+          {{modulo.nombre}}
+        </div>
+      </div>
+    </div>
+
+    <script>
+
+      const App = new Vue({
+        el: '#app',
+        data: {
+          jsonObject: {},
+          provincias: 0
+        },
+
+
+        methods: {
+            getApi() {
+              fetch("https://raw.githubusercontent.com/florindoasir/LDM/master/clases/2021-02-10/example.json")
+              .then(response => response.json())
+              .then(data => (this.jsonObject = data));
+            },
+            cambiarMensaje(){
+              this.mensaje = "Esto son funciones de vue";
+            }
+        },
+
+
+        mounted(){
+            this.getApi()
+        }
+      })
+    </script>
+  </body>
+</html>
