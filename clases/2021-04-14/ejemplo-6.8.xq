@@ -1,0 +1,1 @@
+delete node doc("bailes.xml")/bailes/baile[@id=11];
