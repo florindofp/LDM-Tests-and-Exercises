@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="profile-container">
+        <img src="images/perfil_cv.jpg" alt="Profile Image" class="profile-image" id="profileImage">
+
+
+
+        <h1 id="fullName">Your Full Name</h1>
+        <button id="changeColorName">Change color to blue</button>
+        <p class="profession" id="profession">Your Profession</p>
+
+        <h2 class="hobbies-title">Hobbies</h2>
+        <ul class="hobbies-list" id="hobbiesList"></ul>
+        <h2 class="links-title">Enlaces</h2>
+        <ul class="links-list" id="linksList"></ul>
+        <button class="show-form-button" id="showFormButton">Contact Me</button>
+        <div class="contact-form" id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Send</button>
+        </div>
+        <!-- New Buttons -->
+        <button id="showAlertButton">Show Alert</button>
+        <button id="changeNameColorButton">Change Name Color working</button>
+        <button class="changeNameColorButtonClass">Change Name Color not working</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
