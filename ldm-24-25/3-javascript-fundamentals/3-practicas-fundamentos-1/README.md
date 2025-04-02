@@ -56,12 +56,13 @@ Here's a breakdown of the exercises and the tasks you need to complete:
 *   **Initial State:** None
 *   **Task:**
     *   Create e new html with the next:
-    *   A title with the text "First Javascript contact". It must be an h1 element.
-    *   A button that, when clicked, changes the text of the paragraph to "Hello World".
-    *   A button that, when clicked, changes the text of the paragraph to "Goodbye World".
-    *   A button that, when clicked, change the color of the text to red.
-    *   A button that, when clicked, change the text style to bold.
-    *   A button that, when clicked, change the text style to italic.
+        *   A title with the text "First Javascript contact". It must be an h1 element.
+        *   A button that, when clicked, changes the text of the paragraph to "Hello World".
+        *   A button that, when clicked, changes the text of the paragraph to "Goodbye World".
+        *   A button that, when clicked, change the color of the text to red.
+        *   A button that, when clicked, change the color of the text to blue.
+        *   A button that, when clicked, change the text style to bold.
+        *   A button that, when clicked, change the text style to italic.
 
 ## Requirements
 
@@ -80,6 +81,3 @@ The goal of these exercises is to practice:
 *   Identifying and fixing common JavaScript errors.
 *   Variable declaration and use.
 
----
-
-**Note:** This `README.md` file is generated based on the provided HTML files and their `// TODO:` comments.
