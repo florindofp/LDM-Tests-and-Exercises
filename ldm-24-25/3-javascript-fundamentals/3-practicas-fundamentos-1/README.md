@@ -70,6 +70,7 @@ Here's a breakdown of the exercises and the tasks you need to complete:
 2.  Read the `// TODO:` comment within the `<script>` tag.
 3.  Write the necessary JavaScript code to complete the task or fix the error.
 4.  Test your solution by interacting with the elements in the browser.
+5.  Create a folder in your github repository and add the solution there.
 
 ## Goal
 
