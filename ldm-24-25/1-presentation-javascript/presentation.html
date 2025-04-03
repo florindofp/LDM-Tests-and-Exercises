@@ -12,22 +12,26 @@
         <button id="changeColorName" class="buttonCommon" style="color: rgb(228, 235, 221);">Click me!</button>
 
 
-        <h1 id="fullName">Your Full Name</h1>
-        <p class="profession" id="profession">Your Profession</p>
+        <h1 id="fullName">Florindo López</h1>
+        <p class="profession" id="profession">Software Engineer</p>
 
         <h2 class="hobbies-title">Hobbies</h2>
         <ul class="hobbies-list" id="hobbiesList"></ul>
         <h2 class="links-title">Enlaces</h2>
         <ul class="links-list" id="linksList"></ul>
         <button class="show-form-button" id="showFormButton">Contact Me</button>
-        <div class="contact-form" id="contactForm">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+        <div id="contactForm" class="contact-form">
+            <!-- <label> -->
+            <!-- <input> -->
+            <label>Nombre Completo</label>
+            <input type="text" id="name" name="name" required> 
+            <label>Teléfono</label>
+            <input type="number" id="phone" name="phone">
+            <label>Email</label>
+            <input type="email" id="email" name="email">
+            <label>Mensaje</label>
+            <textarea name="message" id="message"></textarea>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <button type="submit">Send</button>
         </div>
         <!-- New Buttons -->
         <button id="showAlertButton">Show Alert</button>

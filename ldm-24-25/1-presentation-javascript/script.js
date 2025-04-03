@@ -26,17 +26,20 @@ profileImage.addEventListener('mouseout', () => {
 
 
 
+const titleName = document.getElementById('fullName');
 const nameColorButton = document.getElementById('changeColorName');
+const Name      = titleName.textContent;
 
 nameColorButton.addEventListener('click', () => {
     // CHange the color of the name when the image is clicked
-    const titleName = document.getElementById('fullName');
     const colorName = titleName.style.color;
     debugger;
-    if(titleName.style.color == ''){
-        titleName.style.color = 'blue';
+    if(titleName.style.display == ''){
+        titleName.style.display = 'none';
+        titleName.innerHTML = "</br></br></br>1º DAW";
     }else{
-        titleName.style.color = '';
+        titleName.style.display = '';
+        titleName.innerHTML = "Florindo López";
     }
 });
 
@@ -46,18 +49,18 @@ const showFormButton = document.getElementById('showFormButton');
 const contactForm = document.getElementById('contactForm');
 
 showFormButton.addEventListener('click', () => {
-    if (contactForm.style.display === 'none') {
-        contactForm.style.display = 'block';
-        showFormButton.textContent = "Hide Form";
-    } else {
+    if (contactForm.style.display === 'block') {
         contactForm.style.display = 'none';
         showFormButton.textContent = "Contact Me";
+    } else {
+        contactForm.style.display = 'block';
+        showFormButton.textContent = "Hide Form";
     }
 });
 
 // Example of changing content dynamically
-document.getElementById('fullName').textContent = "Florindo López";
-document.getElementById('profession').textContent = "Software Engineer";
+//document.getElementById('fullName').textContent = "Florindo López";
+//document.getElementById('profession').textContent = "Software Engineer";
 
 const hobbies = ["Reading", "Coding", "Hiking"];
 const hobbiesList = document.getElementById('hobbiesList');
