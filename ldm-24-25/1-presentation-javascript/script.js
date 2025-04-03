@@ -25,61 +25,20 @@ profileImage.addEventListener('mouseout', () => {
 });
 
 
+
 const nameColorButton = document.getElementById('changeColorName');
 
 nameColorButton.addEventListener('click', () => {
     // CHange the color of the name when the image is clicked
     const titleName = document.getElementById('fullName');
+    const colorName = titleName.style.color;
+    debugger;
     if(titleName.style.color == ''){
         titleName.style.color = 'blue';
     }else{
         titleName.style.color = '';
     }
 });
-
-
-
-
-
-
-
-
-
-
-
-const changeNameColorButtonClass = document.querySelectorAll('.changeNameColorButtonClass');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // Show/Hide Form
@@ -140,8 +99,4 @@ changeNameColorButton.addEventListener('click', () => {
 });
 
 
-//const changeNameColorButtonClass = document.querySelectorAll('.changeNameColorButtonClass');
-changeNameColorButtonClass.addEventListener('click', () => {
-    fullName.style.color = "yellow"; // Change to your desired color
-});
 

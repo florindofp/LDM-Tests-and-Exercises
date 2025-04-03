@@ -4,17 +4,17 @@ This project demonstrates fundamental JavaScript concepts, covering variables, c
 
 ## Table of Contents
 
-1. [ ]  [Correct Use of Variables (let, const, var)](#1-correct-use-of-variables-let-const-var)
-2. [ ]  [How to Use Comments](#2-how-to-use-comments)
-3. [ ]  [If Statement Uses](#3-if-statement-uses)
+1. [x]  [Correct Use of Variables (let, const, var)](#1-correct-use-of-variables-let-const-var)
+2. [x]  [How to Use Comments](#2-how-to-use-comments)
+3. []  [If Statement Uses](#3-if-statement-uses)
 4. [ ]  [Use of Loops (for)](#4-use-of-loops-for)
 5. [ ]  [Switch Case Use](#5-switch-case-use)
 6. [ ]  [Definition and Correct Use of Functions](#6-definition-and-correct-use-of-functions)
 7. [ ]  [Array Iteration Using Different Methods](#7-array-iteration-using-different-methods)
 8. [ ]  [Use of document.getElementById(), querySelector(), getElementsByClassName()](#8-use-of-documentgetelementbyid-queryselector-getelementsbyclassname)
-9. [ ]  [DOM Edition (element.innerHTML, element.style)](#9-dom-edition-elementinnerhtml-elementstyle)
-10. [ ] [Use of Console Methods (console.log(), console.error(), console.warn())](#10-use-of-console-methods-consolelog-consoleerror-consolewarn)
-11. [ ] [Use of the Browser DevTools Inspect](#11-use-of-the-browser-devtools-inspect)
+9. [x]  [DOM Edition (element.innerHTML, element.style, element.textContent)](#9-dom-edition-elementinnerhtml-elementstyle)
+10. [x] [Use of Console Methods (console.log(), console.error(), console.warn())](#10-use-of-console-methods-consolelog-consoleerror-consolewarn)
+11. [x] [Use of the Browser DevTools Inspect](#11-use-of-the-browser-devtools-inspect)
 
 ## Concepts Explained
 
