@@ -49,8 +49,15 @@ Here's a breakdown of the exercises and the tasks you need to complete:
 *   **Task:**
     *   Add another button to set the font size of the paragraph back to 12px when clicked.
 
+### 7. Detect Errors - Style (`7-detect-errors-style.html`)
 
-### 7. Create your own html (`7-myself.html`)
+*   **Description:** This exercise focuses on identifying and fixing an error related to changing element styles.
+*   **Initial State:** A button labeled "Change Font Size" and a paragraph with some text are displayed. The button is working, but the exercise is not finished.
+*   **Task:**
+    *   Add another button to set the font size of the paragraph back to 12px when clicked.
+
+
+### 8. Create your own html (`8-myself.html`)
 
 *   **Description:** This collect the previous exercises and add a new one.
 *   **Initial State:** None
@@ -59,10 +66,9 @@ Here's a breakdown of the exercises and the tasks you need to complete:
         *   A title with the text "First Javascript contact". It must be an h1 element.
         *   A button that, when clicked, changes the text of the paragraph to "Hello World".
         *   A button that, when clicked, changes the text of the paragraph to "Goodbye World".
-        *   A button that, when clicked, change the color of the text to red.
-        *   A button that, when clicked, change the color of the text to blue.
         *   A button that, when clicked, change the text style to bold.
         *   A button that, when clicked, change the text style to italic.
+        *   A button that, when clicked, change the color of the text to red, when it is clicked again set the color back to the initial color.
 
 ## Requirements
 

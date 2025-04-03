@@ -181,17 +181,19 @@ let firstMyClass = document.querySelector(".myClass");
 let allMyClasses = document.getElementsByClassName("myClass");
 ```
 
-### 9. DOM Edition (element.innerHTML, element.style)
+### 9. DOM Edition (element.innerHTML, element.style, element.textContent)
 
 - `element.innerHTML`: Gets or sets the HTML content within an element.
 - `element.style`: Allows you to modify the inline CSS styles of an element.
+- `element.textContent`: Gets or sets the Text content
 
 **Example:**
 
 ```javascript
 let myDiv = document.getElementById("myDiv");
 
-myDiv.innerHTML = "New Text Content";
+myDiv.innerHTML = "<p>New Text Content</p>";
+myDiv.textContent = "New Text Content";
 myDiv.style.color = "blue";
 myDiv.style.backgroundColor = "lightgray";
 ```
