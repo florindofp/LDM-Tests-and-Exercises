@@ -42,7 +42,10 @@ nameColorButton.addEventListener('click', () => {
         titleName.innerHTML = "Florindo López";
     }
 });
-
+const buttonNew = document.getElementById("nuevo");
+buttonNew.addEventListener('click', function(){
+    alert("ramas mergeadas");
+});
 
 // Show/Hide Form
 const showFormButton = document.getElementById('showFormButton');
