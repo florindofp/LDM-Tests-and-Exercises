@@ -36,7 +36,7 @@ This repository will contain resources, examples, and projects related to:
 *   Practical examples and case studies.
 *   And more!
 
-We will explore the theoretical concepts and practical applications of LDM, providing a comprehensive understanding of how these technologies shape the digital landscape.
+Changes to commit
 
 ---
 

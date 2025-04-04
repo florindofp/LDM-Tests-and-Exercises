@@ -42,6 +42,9 @@ nameColorButton.addEventListener('click', () => {
         titleName.innerHTML = "Florindo López";
     }
 });
+
+
+//cambios para comitear
 const buttonNew = document.getElementById("nuevo");
 buttonNew.addEventListener('click', function(){
     alert("ramas mergeadas");
