@@ -5,6 +5,11 @@ This repository contains a set of practice exercises designed to reinforce funda
 ## Exercises
 
 Here's a breakdown of the exercises and the tasks you need to complete:
+### 0. Initial State
+*   **Description:** Creata a folder in your repo with the name `javascript-fundamentals-p1` and add the content of this folder and push the changes.
+*   **Task:**
+    *   Add the folder to the repo and push
+
 
 ### 1. Change Text (`1-change-text.html`)
 
@@ -69,6 +74,9 @@ Here's a breakdown of the exercises and the tasks you need to complete:
         *   A button that, when clicked, change the text style to bold.
         *   A button that, when clicked, change the text style to italic.
         *   A button that, when clicked, change the color of the text to red, when it is clicked again set the color back to the initial color.
+
+### 9. Push your results to github
+
 
 ## Requirements
 
