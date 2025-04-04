@@ -6,7 +6,7 @@ This project demonstrates fundamental JavaScript concepts, covering variables, c
 
 1. [x]  [Correct Use of Variables (let, const, var)](#1-correct-use-of-variables-let-const-var)
 2. [x]  [How to Use Comments](#2-how-to-use-comments)
-3. []  [If Statement Uses](#3-if-statement-uses)
+3. [ ]  [If Statement Uses](#3-if-statement-uses)
 4. [ ]  [Use of Loops (for)](#4-use-of-loops-for)
 5. [ ]  [Switch Case Use](#5-switch-case-use)
 6. [ ]  [Definition and Correct Use of Functions](#6-definition-and-correct-use-of-functions)
