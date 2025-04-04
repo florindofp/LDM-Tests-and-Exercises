@@ -26,6 +26,7 @@ Here's a breakdown of the exercises and the tasks you need to complete:
 *   **Initial State:** A button labeled "Change Color" and a `div` with a light blue background are displayed.
 *   **Task:**
     *   Create a second button that, when clicked, changes the background color of the `div` back to light blue or another color of your choice.
+    *   Create a third button that changes the color of the h1 to blue when the background is red.
 
 ### 4. Detect Errors - Basic (`4-detect-errors.html`)
 
@@ -57,15 +58,14 @@ Here's a breakdown of the exercises and the tasks you need to complete:
     *   Add another button to set the font size of the paragraph back to 12px when clicked.
 
 
-### 8. Create your own html (`8-myself.html`)
+### 8. Create your own html (`8-yourself.html`)
 
 *   **Description:** This collect the previous exercises and add a new one.
 *   **Initial State:** None
 *   **Task:**
-    *   Create e new html with the next:
-        *   A title with the text "First Javascript contact". It must be an h1 element.
-        *   A button that, when clicked, changes the text of the paragraph to "Hello World".
-        *   A button that, when clicked, changes the text of the paragraph to "Goodbye World".
+    *   Use the html 8-yourself.html for the next:
+        *   A button that, when clicked, changes the text of the paragraph <p> to "Hello World".
+        *   A button that, when clicked, changes the text of the paragraph <p> to "Goodbye World".
         *   A button that, when clicked, change the text style to bold.
         *   A button that, when clicked, change the text style to italic.
         *   A button that, when clicked, change the color of the text to red, when it is clicked again set the color back to the initial color.
