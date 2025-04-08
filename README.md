@@ -37,7 +37,3 @@ This repository will contain resources, examples, and projects related to:
 *   And more!
 
 Changes to commit
-
----
-
-LDM s
