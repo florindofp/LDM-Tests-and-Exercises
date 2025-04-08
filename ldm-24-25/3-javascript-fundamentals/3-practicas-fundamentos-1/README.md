@@ -75,7 +75,14 @@ Here's a breakdown of the exercises and the tasks you need to complete:
         *   A button that, when clicked, change the text style to italic.
         *   A button that, when clicked, change the color of the text to red, when it is clicked again set the color back to the initial color.
 
-### 9. Push your results to github
+## Steps to Follow
+1.  **Github repositrory:**  Ensure you unzip the folder in your git repository and push your changes before starting the project.
+2.  **Solutions:** Resolve all the situation explain above.
+3.  **Testing:** Open the HTML file in a web browser to verify that the layout and styles are applied correctly.
+5.  **Documentation:** Document the process, including any challenges faced and how they were overcome. This can be done in a README.md file or as comments within the code.
+6.  **Push Changes:** Once the project is complete, push the changes to your GitHub repository.
+7.  **Review:** Review the project to ensure all requirements are met and that the code is clean and well-organized.
+
 
 
 ## Requirements
