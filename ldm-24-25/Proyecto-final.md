@@ -1,12 +1,14 @@
-## **Proyecto Final — Dashboard del Tiempo y Noticias (HTML, CSS, JS y APIs)** ☁️🖥️📡
 
-### Duración estimada: 30 horas ⏳📅⌛
 
-### Módulo: Lenguaje de Marcas (DAW) 🧩👨‍🏫📘
+# **Proyecto Final — Dashboard del Tiempo y Noticias (HTML, CSS, JS y APIs)** ☁️🖥️
+
+### Duración estimada: 30 horas ⏳📅
+
+### Módulo: Lenguaje de Marcas y Sistemas de gestión de la información🧩📘
 
 ---
 
-### **Descripción general** 🌍🧭📄
+### **Descripción general** 🌍📄
 
 Vas a desarrollar una aplicación web compuesta por **al menos 5 páginas HTML interconectadas** que funcionen como un *dashboard* informativo. La web mostrará datos **en tiempo real** sobre el clima y noticias recientes, utilizando **APIs públicas**, e incluirá elementos de diseño atractivo y navegación funcional. 🧱📡🗂️
 
@@ -14,7 +16,7 @@ Este proyecto se irá realizando tanto en horario de clase como en horas de trab
 
 ---
 
-### **Objetivos principales** 🎯✅📌
+### **Objetivos principales** 🎯📘
 
 - Aplicar estructuras HTML semánticas y diseño responsive con CSS.
 - Manipular el DOM y gestionar eventos con JavaScript.
@@ -24,9 +26,9 @@ Este proyecto se irá realizando tanto en horario de clase como en horas de trab
 
 ---
 
-### **Estructura mínima del sitio (5 páginas obligatorias)** 🗂️📄🕸️
+### **Estructura mínima del sitio (5 páginas obligatorias)** 🗂️🌐
 
-1. **`index.html`** — Página principal:
+1. **`index.html`** 📊 — Página principal:
 
    - Debe mostrar un **resumen del tiempo actual por horas**.
    - Visualización del tiempo actual desglosado por horas específicas del día: **00:00h, 08:00h, 12:00h y 18:00h**, mostrando:
@@ -37,7 +39,7 @@ Este proyecto se irá realizando tanto en horario de clase como en horas de trab
    - Resumen de titulares de noticias.
    - **Debe incluir un menú de navegación visible** hacia las demás páginas.
 
-2. **`clima.html`** — Página dedicada al clima:
+2. **`clima.html`** 🌦️ — Página dedicada al clima:
 
    - Selector de ciudad/localización.
      - Cuando cambie el selector se debe actualizar la información correctamente.
@@ -55,7 +57,7 @@ Este proyecto se irá realizando tanto en horario de clase como en horas de trab
    - Visualización de **alertas meteorológicas**, si las hubiera. Si no hay, mostrar mensaje:
      > *“No hay alertas meteorológicas para esta ubicación.”*
 
-3. **`noticias.html`** — Página de noticias nacionales:
+3. **`noticias.html`** 📰 — Página de noticias nacionales:
 
    - Mostrar **5 noticias recientes de España** usando la API de GNews.
    - Cada noticia debe incluir:
@@ -65,14 +67,14 @@ Este proyecto se irá realizando tanto en horario de clase como en horas de trab
      - Enlace a la noticia completa.
      - Fuente (medio de comunicación).
 
-4. **`acerca.html`** — Página con un contenido muy parecido al `README.md`, incluyendo:
+4. **`acerca.html`** 📘 — Página con un contenido muy parecido al `README.md`, incluyendo:
    - Descripción general del proyecto.
    - Objetivos del desarrollo.
    - APIs utilizadas.
    - Tecnologías empleadas (HTML, CSS, JavaScript, etc.).
    - Nombre del autor o autora del proyecto.
 
-5. **`contacto.html`** — Página con un formulario de contacto simulado que debe incluir los siguientes campos mínimos:
+5. **`contacto.html`** 📬 — Página con un formulario de contacto simulado que debe incluir los siguientes campos mínimos:
    - Nombre
    - Email
    - Teléfono
@@ -81,13 +83,13 @@ Este proyecto se irá realizando tanto en horario de clase como en horas de trab
 
 ---
 
-### \*\*APIs públicas \*\*🌐🔌📊
+### **APIs públicas obligatorias** 🌐🔌📊💾
 
 
 
 A continuación se facilitan dos, pero se pueden usar cualquieras que necesites.
 
-#### API del Clima — *WeatherAPI*
+#### API del Clima — *WeatherAPI* 🌦️
 
 - Documentación: [https://www.weatherapi.com/docs/](https://www.weatherapi.com/docs/)
 - Registro: [https://www.weatherapi.com](https://www.weatherapi.com) — **requisito obligatorio** para obtener una API Key gratuita.
@@ -102,7 +104,7 @@ A continuación se facilitan dos, pero se pueden usar cualquieras que necesites.
 
 ---
 
-#### API de Noticias — *GNews*
+#### API de Noticias — *GNews* 🗞️
 
 - Documentación: [https://gnews.io/docs/](https://gnews.io/docs/)
 - Registro: [https://gnews.io/dashboard](https://gnews.io/dashboard) — **API Key gratuita requerida**.
@@ -110,7 +112,7 @@ A continuación se facilitan dos, pero se pueden usar cualquieras que necesites.
 
 ---
 
-### **Requisitos técnicos** 🛠️📋🧪
+### **Requisitos técnicos** 🛠️📋🧪💡
 
 - HTML5 semántico, múltiples páginas enlazadas.
 - CSS3 con diseño responsive (Flexbox, Grid o ambos).
@@ -125,7 +127,7 @@ A continuación se facilitan dos, pero se pueden usar cualquieras que necesites.
 
 ---
 
-### **Criterios adicionales de evaluación** 🧩🔍✅
+### **Criterios adicionales de evaluación** 🧩🔍✅⚙️
 
 Además de los requisitos mencionados, se valorará:
 
@@ -137,7 +139,7 @@ Además de los requisitos mencionados, se valorará:
 
 ---
 
-### **Entrega final** 📦📝🎤
+### **Entrega final** 📦📝🎤📤
 
 - Proyecto completo con estructura organizada y navegable.
 - Documentación `README.md` detallada.
