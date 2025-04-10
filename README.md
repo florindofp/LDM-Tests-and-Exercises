@@ -36,4 +36,9 @@ This repository will contain resources, examples, and projects related to:
 *   Practical examples and case studies.
 *   And more!
 
-Changes to commit
+## NEXT STEPS
+- [ ] Bootstrap
+- [ ] Loop
+- [ ] Fetch
+- [ ] https://gnews.io/dashboard Register
+- [ ] https://openweathermap.org/api/one-call-3 Register

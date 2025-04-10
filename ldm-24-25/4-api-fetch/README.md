@@ -9,58 +9,10 @@ This project demonstrates two different approaches to displaying data in a web b
 
 The project contains the following files:
 
-*   **`3-json/script.js`** - Contains the code for displaying local JSON data in an HTML table.
-*   **`4-api-fetch/script.js`** - Contains the code for fetching data from an API and displaying it on the page.
+*   **`index.html`** - Contains the code for displaying HTML table.
+*   **`script.js`** - Contains the code for fetching data from an API and displaying it on the page.
 
-## 1. Displaying Local JSON Data in a Table (`3-json/script.js`)
-
-This script demonstrates how to take a JavaScript array of objects and dynamically create an HTML table to display the data.
-
-### Code Explanation
-
-```javascript
-let tabla = document.getElementById("tablaBody");
-data = [
-    {
-      "nombre": "Juan",
-      "edad": 25,
-      "email": "juan@mail.com"
-    },
-    {
-      "nombre": "Ana",
-      "edad": 30,
-      "email": "ana@mail.com"
-    },
-    {
-      "nombre": "Carlos",
-      "edad": 22,
-      "email": "carlos@mail.com"
-    }
-];
-
-data.forEach(usuario => {
-    let fila = document.createElement("tr");
-    fila.innerHTML = `<td>${usuario.nombre}</td><td>${usuario.edad}</td><td>${usuario.email}</td>`;
-    tabla.appendChild(fila);
-});
-```
-
-### How It Works
-
-- `let tabla = document.getElementById("tablaBody");` - Gets a reference to the `<tbody>` element in your HTML (you'll need to create a table with `id="tablaBody"` in your HTML).
-- `data = [...]` - Defines an array of JavaScript objects. Each object represents a user with properties like `nombre` (name), `edad` (age), and `email`.
-- `data.forEach(usuario => { ... });` - Loops through each object in the `data` array.
-- `let fila = document.createElement("tr");` - Creates a new table row (`<tr>`) for each user.
-- `fila.innerHTML = ...;` - Uses template literals (``) to generate table cells (`<td>`) dynamically.
-- `tabla.appendChild(fila);` - Adds the new row to the `<tbody>` element.
-
-### How to Use
-
-1. Create an HTML file with a table that has a `<tbody>` element with the `id="tablaBody"`.
-2. Include this `script.js` file in your HTML.
-3. Open the HTML file in your browser. The table will be dynamically populated with the data.
-
-## 2. Fetching and Displaying Data from an API (`4-api-fetch/script.js`)
+## 1. Fetching and Displaying Data from an API (`script.js`)
 
 This script demonstrates how to use the `fetch` API to retrieve data from a public API (JSONPlaceholder) and dynamically add it to the webpage.
 
@@ -118,6 +70,11 @@ fetch(apiUrl)
 - `contentDiv.appendChild(postDiv);` - Adds the post `div` to the main content `div`.
 - `.catch(error => { ... })` - Handles fetch errors.
 
+### API TO PRACTICE WITH
+
+- https://gnews.io/dashboard Register
+- 
+
 ### How to Use
 
 1. Create an HTML file with a `div` element that has the `id="content"`.
@@ -127,14 +84,3 @@ fetch(apiUrl)
 ## Conclusion
 
 These examples provide a basic understanding of how to work with data in JavaScript, both local data and data fetched from external APIs. They demonstrate fundamental concepts like DOM manipulation, loops, and asynchronous programming.
-
-### Key Improvements in this `README.md`:
-
-* **Clear Structure:** The `README.md` is well-organized with clear headings and subheadings.
-* **Concise Explanations:** The explanations are easy to understand.
-* **Code Snippets:** The code is formatted within blocks for better readability.
-* **Step-by-Step Instructions:** The "How to Use" sections provide clear guidance.
-* **Contextual Information:** The `README.md` explains the purpose of each script and how they relate to each other.
-* **File Structure:** The `README.md` clearly outlines the project files.
-* **HTML Requirements:** The `README.md` explains the necessary HTML structure for each script.
-* **Conclusion:** The `README.md` summarizes the key takeaways of the project.
