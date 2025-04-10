@@ -1,11 +1,3 @@
-✨📘✅ ¡Perfecto! Aquí tienes el **enunciado del proyecto completamente actualizado**, con todos los requisitos ya integrados, incluyendo:
-
-- Uso obligatorio de la **API de WeatherAPI**.
-- En las páginas **`index.html`** y **`clima.html`**, el **clima actual debe desglosarse por horas específicas**: **00h, 08h, 12h y 18h**.
-- Mostrar temperatura máxima, mínima, viento, precipitación y **el icono del estado del cielo**. ✅📊🌤️
-
----
-
 ## **Proyecto Final — Dashboard del Tiempo y Noticias (HTML, CSS, JS y APIs)** ☁️🖥️📡
 
 ### Duración estimada: 30 horas ⏳📅⌛
@@ -130,6 +122,18 @@ A continuación se facilitan dos, pero se pueden usar cualquieras que necesites.
 - Tema claro/oscuro con posibilidad de cambio.
 - Validación de formularios básica.
 - `README.md` documentado con instrucciones, capturas y fuentes.
+
+---
+
+### **Criterios adicionales de evaluación** 🧩🔍✅
+
+Además de los requisitos mencionados, se valorará:
+
+- Uso de la librería **Bootstrap** para mejorar la maquetación y diseño.
+- Código **ordenado, bien estructurado y con comentarios cuando sea necesario**.
+- Ausencia de **errores o advertencias en la consola del navegador**.
+
+⚠️ **Importante:** Cualquier proyecto que se detecte que proviene de una fuente externa (copiado de internet, plantillas no autorizadas, etc.) será invalidado. El profesorado podrá realizar **preguntas adicionales** al alumnado durante la presentación para comprobar la **autoría real del trabajo**.
 
 ---
 
