@@ -1,0 +1,99 @@
+<!-- noticias.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Noticias</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">ClimaNoticias</a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="clima.html">Clima</a></li>
+            <li class="nav-item"><a class="nav-link" href="acerca.html">Acerca</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container mt-4">
+    <h1>Últimas noticias</h1>
+    <div id="lista-noticias" class="row row-cols-1 row-cols-md-2 g-4"></div>
+  </main>
+
+  <footer class="text-center mt-5 p-3 bg-light">
+    <p>&copy; 2025 ClimaNoticias</p>
+  </footer>
+
+  <script src="js/noticias.js"></script>
+  <script src="js/tema.js"></script>
+</body>
+</html>
+
+<!-- acerca.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Acerca</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">ClimaNoticias</a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="clima.html">Clima</a></li>
+            <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container mt-4">
+    <h1>Acerca del proyecto</h1>
+    <p>Este proyecto es una aplicación web que muestra el clima actual y noticias recientes utilizando APIs públicas. Forma parte del módulo de Lenguaje de Marcas en el ciclo DAW.</p>
+
+    <h2>Objetivos</h2>
+    <ul>
+      <li>Practicar HTML5, CSS3 y JavaScript</li>
+      <li>Integrar APIs externas</li>
+      <li>Desarrollar un sitio web con múltiples páginas interconectadas</li>
+    </ul>
+
+    <h2>APIs utilizadas</h2>
+    <ul>
+      <li><a href="https://www.weatherapi.com/" target="_blank">WeatherAPI</a></li>
+      <li><a href="https://gnews.io/" target="_blank">GNews</a></li>
+    </ul>
+
+    <h2>Tecnologías empleadas</h2>
+    <p>HTML, CSS, JavaScript, Bootstrap 5</p>
+
+    <h2>Autor</h2>
+    <p>Nombre Apellido</p>
+  </main>
+
+  <footer class="text-center mt-5 p-3 bg-light">
+    <p>&copy; 2025 ClimaNoticias</p>
+  </footer>
+
+  <script src="js/tema.js"></script>
+</body>
+</html>
