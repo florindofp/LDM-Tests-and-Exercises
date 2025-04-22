@@ -2,8 +2,6 @@
 
 # **Proyecto Final — Dashboard del Tiempo y Noticias (HTML, CSS, JS y APIs)** ☁️🖥️
 
-### Duración estimada: 30 horas ⏳📅
-
 ### Módulo: Lenguaje de Marcas y Sistemas de gestión de la información🧩📘
 
 ---
