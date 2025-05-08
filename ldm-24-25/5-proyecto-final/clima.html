@@ -1,0 +1,57 @@
+<!-- clima.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Clima</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">ClimaNoticias</a>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
+            <li class="nav-item"><a class="nav-link" href="acerca.html">Acerca</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container mt-4">
+    <h1>Clima por ciudad</h1>
+    <div class="mb-3">
+      <label for="ciudad-select" class="form-label">Selecciona una ciudad:</label>
+      <select id="ciudad-select" class="form-select">
+        <option value="Madrid">Madrid</option>
+        <option value="Barcelona">Barcelona</option>
+        <option value="Valencia">Valencia</option>
+        <option value="Sevilla">Sevilla</option>
+      </select>
+    </div>
+
+    <h2>Clima por horas</h2>
+    <div id="clima-horas" class="row"></div>
+
+    <h2 class="mt-5">Previsión de 5 días</h2>
+    <div id="clima-dias" class="row"></div>
+
+    <h3 class="mt-4">Alertas meteorológicas</h3>
+    <div id="alertas" class="alert alert-info">Cargando...</div>
+  </main>
+
+  <footer class="text-center mt-5 p-3 bg-light">
+    <p>&copy; 2025 ClimaNoticias</p>
+  </footer>
+
+  <script src="js/clima.js"></script>
+  <script src="js/tema.js"></script>
+</body>
+</html>

@@ -2,8 +2,6 @@
 
 # **Proyecto Final — Dashboard del Tiempo y Noticias (HTML, CSS, JS y APIs)** ☁️🖥️
 
-### Duración estimada: 30 horas ⏳📅
-
 ### Módulo: Lenguaje de Marcas y Sistemas de gestión de la información🧩📘
 
 ---
@@ -83,7 +81,7 @@ Este proyecto se irá realizando tanto en horario de clase como en horas de trab
 
 ---
 
-### **APIs públicas obligatorias** 🌐🔌📊💾
+### **APIs públicas** 🌐🔌📊💾
 
 
 
@@ -93,7 +91,7 @@ A continuación se facilitan dos, pero se pueden usar cualquieras que necesites.
 
 - Documentación: [https://www.weatherapi.com/docs/](https://www.weatherapi.com/docs/)
 - Registro: [https://www.weatherapi.com](https://www.weatherapi.com) — **requisito obligatorio** para obtener una API Key gratuita.
-- **Endpoints obligatorios:**
+- **Endpoints:**
   - `current.json` → Clima actual.
   - `forecast.json` → Previsión para los próximos 5 días.
 - **Datos obligatorios por hora específica (00h, 08h, 12h, 18h):**
