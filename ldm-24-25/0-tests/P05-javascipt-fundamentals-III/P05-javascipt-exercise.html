@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Examen de Práctica: JavaScript + CSS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    .box {
+      width: 200px;
+      height: 100px;
+      background-color: lightgray;
+      margin-bottom: 20px;
+      text-align: center;
+      line-height: 100px;
+      border: 2px solid #ccc;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .output {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Examen de Práctica: JavaScript + CSS</h1>
+
+  <h2>Tarea 1: Estilo CSS</h2>
+  <p class="task-text">Estiliza este texto para que sea rojo y en negrita usando una clase CSS.</p>
+
+  <h2>Tarea 2: Cambiar color al hacer clic</h2>
+  <div class="box" id="colorBox">Haz clic en los botones</div>
+  <button>Azul</button>
+  <button>Verde</button>
+  <button>Reiniciar</button>
+
+  <h2>Tarea 3: Alternar visibilidad, muestra y oculta el texto de cuando ¡Ahora me ves!</h2>
+  <button>Mostrar/Ocultar Texto</button>
+  <p id="togglePara" class="hidden">¡Ahora me ves!</p>
+
+  <h2>Tarea 4: Interacción con formulario</h2>
+  <form id="studentForm">
+    <label>Nombre: <input type="text" id="nameInput"></label><br><br>
+    <label>Edad: <input type="number" id="ageInput"></label><br><br>
+    <button type="submit">Enviar</button>
+  </form>
+  <div class="output" id="formOutput"></div>
+
+  <h2>Tarea 5: Validación en tiempo real</h2>
+  <label>Correo electrónico: <input type="email" id="emailInput"></label>
+  <p id="emailValidationMessage"></p>
+
+  <script>
+  </script>
+
+</body>
+</html>
